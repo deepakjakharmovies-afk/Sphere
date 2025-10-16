@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "903175298103",
+    "project_id": "moc-erahspans",
+    "storage_bucket": "moc-erahspans.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:903175298103:android:19356d935b78741983f3b2",
+        "android_client_info": {
+          "package_name": "erahspans.moc.snapshare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "903175298103-td5clj7pttr30j95jteubg7ea0857thl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "erahspans.moc.snapshare",
+            "certificate_hash": "5713f60d5a92ca83777206a7f8239e9a42cfaebd"
+          }
+        },
+        {
+          "client_id": "903175298103-gfmv9imc7dq701kpegbs6un3q46oo9q4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCScrZQi4lIjK0HjUg-h6z4eRsB4nqlqQw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "903175298103-gfmv9imc7dq701kpegbs6un3q46oo9q4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "903175298103-po6nun2jjkcp99jl64vrncom692r8c42.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "erahspans.moc.snapshare"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
