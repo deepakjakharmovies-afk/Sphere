@@ -1,8 +1,10 @@
+import 'package:snapshare/gridveiw.dart';
 import 'package:snapshare/loginpage.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:snapshare/mainscreen.dart';
 import 'firebase_options.dart'; // <--- ADD THIS LINE
-
+// import 'package:flutter_media_downloader/flutter_media_downloader.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
@@ -39,7 +41,13 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const LoginScreen(),
+      // home: const NoTiltCardList(),
+      initialRoute: '/',
+      routes: {
+        // '/': (context) => const LoginScreen(),
+        '/': (context) => const NoTiltCardList(),
+        '/gridview':(context) => const PhotoV(),
+      },
     );
   }
 }

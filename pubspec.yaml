@@ -39,6 +39,9 @@ dependencies:
   google_sign_in: ^6.1.0
   cloud_firestore: ^6.0.3
   provider: ^6.1.5+1
+  photo_view: ^0.15.0
+  flutter_media_downloader: ^2.0.0
+  image_gallery_saver: ^2.0.3
 
 dev_dependencies:
   flutter_test:
